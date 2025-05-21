@@ -499,6 +499,7 @@ luaL_Reg *Closures::GetFunctions() {
          {"iscclosure", iscclosure},
          {"islclosure", islclosure},
          {"clonefunction", clonefunction},
+         {"copyfunction", clonefunction},
          {"getcallingscript", getcallingscript},
          {"hookfunction", hookfunction},
          {"hookmetamethod", hookmetamethod},
