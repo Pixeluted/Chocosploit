@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "builtin-baseline": "6f29f12e82a8293156836ad81cc9bf5af41fe836",
+  "dependencies": [
+    {
+      "name": "zstd",
+      "platform": "(windows & x64)"
+    },
+    {
+      "name": "xxhash",
+      "platform": "(windows & x64)"
+    },
+    {
+      "name": "openssl",
+      "platform": "(windows & x64)"
+    },
+    {
+      "name": "zlib",
+      "platform": "(windows & x64)"
+    },
+    {
+      "name": "mbedtls",
+      "platform": "(windows & x64)"
+    },
+    {
+      "name": "lz4",
+      "platform": "(windows & x64)"
+    }
+  ]
+}

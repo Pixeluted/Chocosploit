@@ -1,0 +1,6 @@
+[submodule "Dependencies/cpr"]
+	path = Dependencies/cpr
+	url = https://github.com/libcpr/cpr
+[submodule "Dependencies/cryptopp"]
+	path = Dependencies/cryptopp
+	url = https://github.com/abdes/cryptopp-cmake
