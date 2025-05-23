@@ -182,7 +182,7 @@ int fireclickdetector(lua_State *L) {
         FireClickDetector_RightMouseClick(reinterpret_cast<uintptr_t>(rawInstance), distance,
                                           reinterpret_cast<uintptr_t>(rawLocalPlayer));
     } else {
-        luaG_runerrorL(L, "nigga...");
+        luaG_runerrorL(L, "n...");
     }
 
     return 0;
@@ -264,7 +264,7 @@ void replicatesignal(lua_State *L) {
     const auto argsStart = *reinterpret_cast<uintptr_t *>(theSignal + 0x40);
     const auto argsEnd = *reinterpret_cast<uintptr_t *>(theSignal + 0x48);
     if (argsStart == 0 || argsEnd == 0)
-        luaL_argerrorL(L, 1, "Nigga there are no args!");
+        luaL_argerrorL(L, 1, "n there are no args!");
 
     std::vector<EventArgument *> allArguments{};
     for (uintptr_t current = argsStart; argsEnd >= current;) {

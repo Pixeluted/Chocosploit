@@ -161,7 +161,7 @@ int write_to_internal_log(lua_State *L) {
     luaL_checktype(L, 1, LUA_TSTRING);
     const auto logType = static_cast<LogType>(luaL_optinteger(L, 2, 0));
     if (logType < 0 || logType > 2)
-        luaL_argerrorL(L, 2, "Good try nigger");
+        luaL_argerrorL(L, 2, "Good try n");
 
     ApplicationContext::GetService<Logger>()->WriteToLog(logType, lua_tostring(L, 1));
     return 0;

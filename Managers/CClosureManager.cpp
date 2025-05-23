@@ -44,7 +44,7 @@ int CClosureManager::NewCClosureProxy(lua_State *L) {
     auto closure = originalClosure.GetReferencedObject(L);
     if (!closure.has_value()) {
         logger->Log(Info,
-                    "NewCClosureProxy -> Something exploded, and your ref is no longer valid. Blame the nigger of senS.");
+                    "NewCClosureProxy -> Something exploded, and your ref is no longer valid. Blame the n of senS.");
         luaL_error(L, "call resolution failed");
     }
 

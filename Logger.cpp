@@ -11,7 +11,7 @@ Logger::Logger() {
     const auto baseUIPathOpt = Communication::ObtainBaseUIPath();
     if (!baseUIPathOpt.has_value()) {
         isInitialized = true;
-        MessageBoxA(nullptr, "I hate niggers", ":3", MB_OK);
+        MessageBoxA(nullptr, "I hate n", ":3", MB_OK);
         return;
     }
 
@@ -32,7 +32,7 @@ Logger::Logger() {
     logFile.open(logPath, std::ios::binary);
     if (!logFile.is_open()) {
         isInitialized = true;
-        MessageBoxA(nullptr, "I hate niggers 2", ":3", MB_OK);
+        MessageBoxA(nullptr, "I hate n 2", ":3", MB_OK);
         return;
     }
 
